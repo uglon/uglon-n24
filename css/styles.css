@@ -26,6 +26,11 @@ img{
   height: auto;
 }
 
+/* OUTLINE-STYLES */
+*:focus{
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
 
 /* BUTTON */
 .button{
@@ -66,8 +71,6 @@ img{
 
 
 /* SITE-HEADER */
-.site-header {
-}
 
 /* SITE-HEADER-TOP */
 .site-header-top {
@@ -115,6 +118,19 @@ img{
   color:  #2959ce;
 }
 
+
+/* GLOBAL-SEARCH-FORM */
+.global-search-form{
+  margin-right: 25px;
+}
+
+.global-search-form-input{
+  padding: 15px 20px 13px 40px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+}
 
 /* LANG-TOGGLE */
 .lang-toggle {
